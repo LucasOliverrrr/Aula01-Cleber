@@ -1,25 +1,24 @@
 body{
-      background-color: rgb(207, 156, 255);
+    background-color: blueviolet;
 }
+
 h1{
-      color: rgb(255, 0, 0);
-      text-align: center;
-      font-size: 60px;
+  color: brown;
+  text-align: center;
 }
+
 p{
-      color: red;
-      text-align: center;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-      font-size: 20px;
+  font-family: Verdana;
+  font-size: 20px;
+  color: red;
 }
+
 #lvalor1{
-    color: aqua;
-}
-#lvalor2{
-    color: aqua;
+         color: aqua;
 }
 
 .classLabel{
-    color: cadetblue;
-    text-align: center;
+           color: cadetblue;
 }
+
+

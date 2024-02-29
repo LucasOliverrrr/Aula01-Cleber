@@ -1,42 +1,39 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <link rel="stylesheet" href="meucss.css">
-    <script type="text/javascript" src="meujavascript.js"></script>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
-</head>             
-<body>
-    <h1> Calculadora </h1>
-    <br>
-    <p> Nesta página é possivel realizar operações matematicas básicas </p>
-    <br>
-    <label id= "lvalor1"> Valor 1: </label>
-    <input type="text" id= ivalor1 /> 
-    <br>
-    <br>
-    <label id= "lvalor2"> Valor 2: </label>
-    <input type="text" id= ivalor2 /> 
-    <br>
-    <br>
-    <div> 
-        <label> Soma </label> 
-        <input type="radio" name="calc" id="soma" value="soma"/>
-        <label> Subtração </label>
-        <input type="radio" name="calc" id="subtracao" value="subtracao"/>
-        <label> Multiplicação </label>
-        <input type="radio" name="calc" id="multiplicação" value="multiplicacao"/>
-        <label> Divisão </label>
-        <input type="radio" name="calc" id="divisao" value="divisao">
-    </div>
-    <br>
-    <button onclick="calculadora()"> Calcular </button>
+    <head>
+            <meta charset="UTF-8">
+            <link  rel="stylesheet" href="meucss.css"/>
+            <script type="text/javascript" src="meujavascript.js"></script>            
+    </head>
+    <body>
+        <h1> Calculadora </h1>
+        <br>
+        <!-- comentário  -->
+        <p> Nesta página é possível realizar operações matemáticas básicas</p>
+        <br>
+        <label  id="lvalor1"> Valor 1: </label>
+        <input type="text" id="ivalor1"/>
+        <br>
+        <br>
+        <label class="classLabel"> valor 2: </label>
+        <input type="text" id="ivalor2"/>
+        <br>
+        <br>
+        <div>
+                <label> Soma </label>
+                <input type="radio" name="calc" id="soma" value="soma"/>
+                <label> Subtração</label>
+                <input type="radio" name="calc" id="subtracao" value="subtracao"/>
+                <label> Multiplicacao </label>
+                <input type="radio" name="calc" id="multiplicacao" value="multiplicacao"/>
+                <label> Divisão </label>
+                <input type="radio" name="calc" id="divisao" value="divisao"/>
+        </div>
+        <br>
+        
+        <button onclick="calculadora()"> Calcular </button>
 
-    <p> Voltem Sempre </p>
-    <h3 class="classLabel"> Obrigado </h3>
-</body>
+        <p> Volte Sempre</p>
+        <h3 class="classLabel"> Obrigado </h3>
+    </body>
 </html>
